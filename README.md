@@ -1,26 +1,16 @@
 # Wegue Demo Applications
 
-This repository contains demo applications based on [Wegue](https://www.github.com/meggsimum/wegue).
+This repository contains demo configurations for [Wegue](https://www.github.com/meggsimum/wegue).
 
-## Create your own app
+## Usage
 
-The bash-script `create-wegue-app.sh` creates a basic application for you. Make sure to install `git` and `npm` before.
-
-## Upgrade your app to the latest Wegue
-
-Run this commands:
+Clone Wegue:
 
 ```shell
-git submodule update --remote 
+git clone https://github.com/meggsimum/wegue
 ```
 
-Create the symlink again:
-```shell
-rm -rf wegue/app
-ln -s ../app wegue/app
-```
-
-Afterwards the `wegue` submodule will have the latest commits. Make sure to check that you application afterwards still works as expected.
+Add the `app` directory of `wegue-demos` (this repository) to your `wegue` directory. 
 
 ## Demo: Global Data
 
